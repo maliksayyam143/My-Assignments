@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-console.log("Hello World");
+console.log("Hello Sayyam will you like to learn typescript!");
 let name = "Ali";
 name = "sayyam";
 console.log(name);

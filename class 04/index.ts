@@ -9,7 +9,7 @@
 // ]);
 // console.log("Inshallah, in "+(60-answers.age)+" Years you will be 60 years old.");
 
-
+//  IF-Else Statement
 // let haspass: boolean = false;
 // if(haspass){
 //     console.log("Wellcome in class");
@@ -18,11 +18,11 @@
 //     console.log('Not Allow to enter in uni')
 // }
 
-
-// let student = true
-// let age = 17
+// Nested If statement
+// let student:string ="YES";
+// let age = 17;
 // if(student){
-//     if(age >= 18){
+//     if(age >= 18 && age<=80){
 //         console.log("Welcome to class.")
 
 //     }else{
@@ -35,8 +35,8 @@
 // }
 
 
-// function getFavoriteNumber(): number {
-//     return 26;
+// function getFavoriteNumber(): string {
+//     return "Ali";
 //    }
 // console.log(getFavoriteNumber());
 // ;
@@ -44,27 +44,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import inquirer from "inquirer";
-
-import { log } from "console";
-// import { CLIENT_RENEG_LIMIT } from "tls";
-
+// import inquirer from "inquirer";
 // let answers = await inquirer.prompt([{
 //     name: "age",
 //     type: "number",
@@ -72,25 +52,33 @@ import { log } from "console";
 // ]);
 // console.log("Inshallah, in "+(60-answers.age)+" Years you will be 60 years old.");
 
-// let pass = await inquirer.prompt([]);
+
+// import inquirer from "inquirer";
+// const haspass = await inquirer.prompt([{
+//     name: "pass",
+//     type: "input",
+//     message: "You have pass:(yes/no)"    
+// }]);
+// if(haspass.pass.toLowerCase() ==='yes'){
+//     console.log("Congratulations! You can enter the university and attend the class.");
+// }
+// else{
+//     console.log("Sorry, you are not allowed to enter the university.");
+    
+// }
 
 
-let haspass = await inquirer.prompt([{
-    name: "pass",
-    type: "boolean",
-    message: "You have pass:"
-}]);
-let age = await inquirer.prompt([{
-    name: "age",
-    type: "number",
-    message: "What your age:"
-}]);
-if(haspass = true){
-    console.log("You can attend the class");
-    if(age>=18){
-        console.log("Not allow under 18 year")
-    }
-}
-else{
-    console.log("Not allow to enter in uni without pass");
-}
+// import inquirer from "inquirer";
+// const age = await inquirer.prompt([{
+//     name: "age",
+//     type: "input",
+//     message: "What your age:"
+// }]);
+// if(age.age>= 18){
+//     console.log("Welcome and join your class");
+// }
+// else{
+//     console.log("Under 18 are not allow in uni");
+    
+// }
+
