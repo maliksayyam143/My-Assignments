@@ -54,7 +54,7 @@ if (choice === 'fruit') {
     const selectedFruit = fruitResponse.selectedFruit;
     const price = fruit[selectedFruit];
     const quantity = fruitResponse.quantity;
-    totalBill = selectedFruit.price * quantity;
+    totalBill = selectedFruit * quantity;
     selectedItems.push({ name: selectedFruit.name, quantity, totalBill });
 }
 else if (choice === 'vegetable') {

@@ -19,6 +19,7 @@ let answer = await inquirer.prompt([
 ]);
 const {num1,num2,operations}=answer;
 
+// Arrow Function
 const maths = (num1: number, num2: number, operation: string):number|string=> {
         switch (operation) {
         case "+":
@@ -45,7 +46,7 @@ const maths = (num1: number, num2: number, operation: string):number|string=> {
             return num1**num2;
             break;
         default:
-            return "Operation not possible";
+            return "Operation not possible";    
             break;
     }
 }
@@ -56,3 +57,4 @@ if(maths(Number(num1), Number(num2), operations)){
 else{
     console.log("No problem. If you change your mind, feel free to use the calculator later.");
 }
+// maths(Number(num1), Number(num2), operations)

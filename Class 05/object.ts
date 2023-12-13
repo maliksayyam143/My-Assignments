@@ -50,7 +50,7 @@ let company : Company = {
     id : "MS04",
     name : "Ali",
     departments : "CS",
-    cellNo : +9203185903219
+    cellNo : +923185903219
 }
 console.log(`Name of person is : `+company.name+"\n");
 console.log(`ID of ${company.name} is : `+company.id+"\n");
