@@ -51,3 +51,7 @@ else {
     console.log("No problem. If you change your mind, feel free to use the calculator later.");
 }
 // maths(Number(num1), Number(num2), operations)
+while (answer <= 4) {
+    console.log(maths);
+    answer++;
+}

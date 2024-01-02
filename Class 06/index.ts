@@ -38,8 +38,8 @@ interface Ball {
   
   myType = {id: 24, name: "Muzhar"}
   //Case 2a
-  myType = {id: 23, name_person:"wania"} //Error: missing property or rename
-  myType = {id: 23, admin:"wania"} //Error: missing property or rename
+  // myType = {id: 23, name_person:"wania"} //Error: missing property or rename
+  // myType = {id: 23, admin:"wania"} //Error: missing property or rename
   
   //Case 2b
   let x : {id:number, [a:string]:any }

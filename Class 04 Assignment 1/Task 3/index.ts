@@ -5,7 +5,7 @@
 //         - **`pop`**: Remove the last element from the array.
 //         - **`shift`**: Remove the first element from the array.
 //         - **`unshift`**: Add new elements to the beginning of the array.
-console.log("Modifing the Arrat by different Methods");
+console.log("Modifing the Array by different Methods");
 let a = [4,5,6,9,8,2];
 console.log(a[0]);
 console.log(a[5]);

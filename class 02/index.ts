@@ -23,7 +23,7 @@ console.log(`${num1}-${num2}=${Sub}`);
 // For Multiplication
 const Multi = (num1*num2);
 console.log(`${num1}*${num2}=${Multi}`);
-//For Dividion 
+//For Division 
 const Div = (num1/num2);
 console.log(`${num1}/${num2}=${Div}`);
 // Different between let and var
