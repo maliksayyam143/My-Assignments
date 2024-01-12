@@ -48,7 +48,7 @@ interface Ball {
   }
 //   let tube : Tube = {diameter:22,length:5}
     let tube : Tube = { diameter : 5, length: 6}
-  tube = ball;
+  // tube = ball; error
   ball = tube
   // Because a ball does not have a length, then it cannot be assigned to the tube variable. However, all of the members of Ball are inside tube, and so it can be assigned.
   // TypeScript is comparing each member in the type against each other to verify their equality.

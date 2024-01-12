@@ -67,6 +67,7 @@ import inquirer from 'inquirer';
 //   console.log(getFavoriteNumber())
 //   getFavoriteNumber();
 
+
 // Arrow Function example of sum
 // let sum1 = (x: number, y: number): number => {
     // return x + y;

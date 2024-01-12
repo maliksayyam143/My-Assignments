@@ -27,9 +27,10 @@ console.log(addArrow(565,12));
 //First class function = first class citizens (refer by this in some books and articles)
 
 type greeterfunction = (a:string) => void;
-function greeter1(fn:greeterfunction){ // declaration of function
-    //..
-}
+// function greeter1(fn:greeterfunction){ // declaration of function
+//     //..
+// }
+
 // Example function
 function greetEnglish(name:string):void{
     console.log(`Hello,${name}!!!`);

@@ -72,6 +72,6 @@ interface Ball {
   //Case 3
   let y2 = {id:44, admin_name:"Wania", age:60}
   y1 = y2 //stale object
-  y2 =y1
+  // y2 =y1 error
   
   

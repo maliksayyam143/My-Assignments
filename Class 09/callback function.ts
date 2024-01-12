@@ -83,7 +83,7 @@ console.log("\n");
 //-----------------------------------------------------------------------------------------------------
 
 //1.2 Calculator Callback Example - when function passed as an argument and become callback function
-// The calculate function takes in two numbers and a callback function (operationCallback).
+// The calculate function takes two numbers and a callback function (operationCallback).
 // It uses the operationCallback to perform an operation on the provided numbers (num1 and num2).
 // The result is then logged to the console.
 
@@ -113,7 +113,7 @@ function divide(n1:number,n2:number){
 calculator(45,5,add);
 calculator(45,5,subtract);
 calculator(5,2,multiply);
-calculator(40,5,multiply);
+calculator(40,5,divide);
 
 
 

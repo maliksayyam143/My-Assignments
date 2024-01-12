@@ -48,6 +48,7 @@ console.log(Array6);
 let joinedString = Array6.join(" , ");
 console.log(joinedString);
 
+
 //Slice Method:In TypeScript, the slice method is used to extract a portion of an array. It does not modify the original array but returns a new array containing the elements specified by the provided start and end indices.
 const Numbers:number[] = [1,2,3,4,5];
 let slicedarray =  Numbers.slice(1,3);
@@ -85,6 +86,7 @@ console.log(personage40);
 let num : number[] = [1,2,3,4,5];
 const indexOfFirstEven: number = numbers.findIndex(num => num % 2 === 0);
 console.log(indexOfFirstEven);
+
 
 // Map method:  TypeScript, the map method is used to create a new array by applying a function to each element of an existing array. The map method doesn't modify the original array; instead, it returns a new array with the results of applying the provided function to each element of the original array.
 let Map :number[] = [2,4,6,8,10];

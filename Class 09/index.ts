@@ -54,7 +54,7 @@ console.log("End");
 console.log("HI"); // Display  first
 
 setTimeout(function cb1() {
-    console.log("Cb1"); // Display  last, after 5000 milliseconds
+    console.log("Cb1"); // Display on last, after 5000 milliseconds
 }, 5000);
 
 console.log("BYE"); // Display  second

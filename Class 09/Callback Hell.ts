@@ -1,6 +1,6 @@
 import chalk from "chalk";
 // Call back function is a way to used function in javascript.Callback function mean call me back..
-// Like when we call function it will give's output, but in case of Call back we set a timer.
+// Like when we call some gernal function it will give's output, but in case of Call back we set a timer.
 // Hum callback my condition dyty ha jab tak yeh part complete ni huta , tab tak is function ko call ni karna ha.
 // This behaviour our comes in asynchronous. We also said async to asynchronous it's mean takes some time.
 

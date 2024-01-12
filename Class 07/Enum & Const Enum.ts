@@ -20,7 +20,7 @@ console.log(colorindex);
 // Whereas simple enum maintain both the names and numbers at runtime
 
 const enum Color {pink = 1 , light = "color"};
-console.log(Color.pink);  //  in const enum we can only access the value , not there kry.
+console.log(Color.pink);  //  in const enum we can only access the value , not there key.
 
 const enum Color {Pink = 12 , dark = 56};
 // console.log(Color[12]); Error
