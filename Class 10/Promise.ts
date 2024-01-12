@@ -37,8 +37,8 @@ let myPromise = new Promise((resolve,Rejected)=>{
 });
 
 // To get data , we using the .then : They takes a callback function.
-myPromise.then((respone)=>{
-    console.log(respone);
+myPromise.then((respones)=>{
+    console.log(respones);
 });
 
 // When error occur's : They takes a callback function.
