@@ -22,7 +22,7 @@ let myPromise = new Promise((resolve,Rejected)=>{
         // console.log("Promise Resolved");
         // resolve(["Sayyam","Farhan"]);
         // console.log("Promise Rejected");
-        // Rejected(new Error("Data Fetch Failed!"));
+        // Rejected(new Error("Data Fetch Failed!"));   
 
         let data = [37401,37421,37212,371513,565026];
             if(data){
