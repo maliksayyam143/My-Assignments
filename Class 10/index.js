@@ -11,7 +11,7 @@ function greetFrench(name) {
 }
 greeter(greetEnglish); //func call
 greeter(greetFrench); // func call
-//=============>>> name function with optional parameter
+//=============>>> name function with optional parameter  <<=========================
 function fullName(firstName, lastName) {
     if (lastName) {
         console.log(`My name is ${firstName} ${lastName}.`);
@@ -23,7 +23,7 @@ function fullName(firstName, lastName) {
 ;
 fullName("Sayyam", "Shahid"); //func call
 fullName("Sayyam"); //func call
-//=============>>> name function with defualt parameter
+//=============>>> name function with defualt parameter  <<=========================
 function fullname(firstName, lastName = "Shahid") {
     if (lastName) {
         console.log(` ${firstName} ${lastName}.`);
@@ -35,7 +35,7 @@ function fullname(firstName, lastName = "Shahid") {
 ;
 fullname("Sayyam", "& Aliyan"); //func call
 fullname("Aliyan"); //func call
-//=============>>> names function with rest parameter.
+//=============>>> names function with rest parameter.  <<=========================
 function names(name, ...restOfNames) {
     console.log(`${name.toUpperCase()} ${restOfNames.join(" ").toUpperCase()} `);
 }
@@ -63,7 +63,7 @@ function Hi() {
 // main function called in which we pass another function in their argument , which known as CallBack Function.
 greet("Sayyam", Hi);
 greet("Sayyam", bye);
-// ==========>> CallBack Hell : Nested callback function called callback hell.
+// ==========>> CallBack Hell : Nested callback function called callback hell. <<=========================
 // Easy Example of callback hell.
 setTimeout(() => {
     console.log("Spring");

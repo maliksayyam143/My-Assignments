@@ -17,7 +17,7 @@ let myPromise = new Promise((resolve, Rejected) => {
         // console.log("Promise Resolved");
         // resolve(["Sayyam","Farhan"]);
         // console.log("Promise Rejected");
-        // Rejected(new Error("Data Fetch Failed!"));
+        // Rejected(new Error("Data Fetch Failed!"));   
         let data = [37401, 37421, 37212, 371513, 565026];
         if (data) {
             console.log("Promise Resolved");
@@ -30,8 +30,8 @@ let myPromise = new Promise((resolve, Rejected) => {
     }, 3000);
 });
 // To get data , we using the .then : They takes a callback function.
-myPromise.then((respone) => {
-    console.log(respone);
+myPromise.then((respones) => {
+    console.log(respones);
 });
 // When error occur's : They takes a callback function.
 myPromise.catch((error) => {
